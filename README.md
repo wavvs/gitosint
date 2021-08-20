@@ -6,6 +6,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/status-beta-important" alt="status">
 </p>
+
 ## Features
 
 * Extract commit metadata (emails and usernames) from Git repositories
