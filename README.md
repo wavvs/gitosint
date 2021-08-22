@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="assets\README\logo.png">
 </h1>
-<h4 align="center">Git services reconnaissance and metadata extraction tool.</h4>
+<h4 align="center">Gitosint is a tool for reconnaissance of the Git services and extracting valuable metadata from commits.</h4>
 
 <p align="center">
 <img src="https://img.shields.io/badge/status-beta-important" alt="status">
@@ -95,7 +95,7 @@ Note: omit `--members` option if an organization has too many members. The tool 
 Find GitHub users by email addresses:
 
 ```
-$ gitosint github -t <token> --emails <email_1>,...,<email_N>
+$ gitosint github -t <token> --emails <email_1>,...,<email_N> --search
 ```
 
 Extract commit metadata from specific repositories and list their contributors (uses tool functionality):
@@ -111,3 +111,5 @@ Note: If you encounter "*push declined due to email privacy restrictions*" error
 * Add GitLab support
 * Improve tool output
 * Improve documentation
+* Add logging
+* Add option to pause the tool until rate limits are restored
