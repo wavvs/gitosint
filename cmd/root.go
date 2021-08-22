@@ -23,7 +23,7 @@ var (
 func NewCommand() *cobra.Command {
 	rootCmd := &cobra.Command{
 		Use:   "gitrecon",
-		Short: "Git services reconnaissance and metadata extraction tool",
+		Short: "Gitosint is a tool for reconnaissance of the Git services and extracting valuable metadata from commits.",
 		PersistentPreRun: func(cmd *cobra.Command, args []string) {
 			if err := common.SetOutput(outputFile); err != nil {
 				log.Fatal(err)
